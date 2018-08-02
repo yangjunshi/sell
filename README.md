@@ -1,21 +1,19 @@
 # sell
 
-> sell app
+> 本项目是基于vue2实战项目，vue2 +vue-router2 + es6 +webpack 高仿饿了么app
 
-## Build Setup
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 启动本地开发环境服务（localhost:8080）
 npm run dev
 
-# build for production with minification
+# 打包发布代码
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# 运行服务（localhost:9000）
+node prod.server.js
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
